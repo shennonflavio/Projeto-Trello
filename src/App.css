@@ -1,0 +1,280 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+	top: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+span {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: left;
+	    -ms-flex-pack: left;
+	        justify-content: left;
+	color: #2799FB;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+input {
+	background: #F1F9FF;
+	margin-bottom: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 5px;
+	border-color: #D4EAFE;
+	border-style: solid;
+}
+
+input [type="checkbox"]::before {
+	width: 50px;
+}
+
+textarea {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 5px;
+	margin-top: 80px;
+	border-color: #D4EAFE;
+	resize: none;
+}
+
+select {
+	background: #F1F9FF;
+	border-radius: 5px;
+	width: 320px;
+	height: 30px;
+	border-color: #D4EAFE;
+	color: #2799FB;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #E1F0FE;
+}
+
+textarea::-moz-placeholder {
+	color: #E1F0FE;
+}
+
+textarea:-ms-input-placeholder {
+	color: #E1F0FE;
+}
+
+textarea::-ms-input-placeholder {
+	color: #E1F0FE;
+}
+
+textarea::placeholder {
+	color: #E1F0FE;
+}
+
+option {
+	color: #2799FB;
+}
+
+form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.App {
+	margin-top: 10%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.column1 span {
+	margin-bottom: 15px;
+}
+
+.column1 input {
+	width: 450px;
+	height: 40px;
+}
+
+.column2 {
+	width: 370px;
+	margin-left: 30px;
+}
+
+.column2 span {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+#boxtext {
+	width: 450px;
+}
+
+.checkbox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.checkbox input span {
+	float: left;
+}
+
+.checkbox span {
+	margin-right: 40px;
+}
+
+.dropdown {
+	width: 350px;
+	height: 150px;
+	display: block;
+}
+
+.dropdown span {
+	display: block;
+}
+
+.tags {
+	display: inline-block;
+	margin-top: -100px;
+	width: 350px;
+	height: 200px;
+}
+
+.tags span {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.tags button {
+	float: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100px;
+	height: 30px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: none;
+	background: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-color: #D4EAFE;
+	border-style: solid;
+	color: #2799FB;
+	background: #F1F9FF;
+}
+
+.botao-enviar {
+	margin-right: 50px;
+	margin-top: 200px;
+	margin-left: -150px;
+	float: right;
+	width: 100px;
+	height: 30px;
+	border-radius: none;
+	background: none;
+	border-color: #D4EAFE;
+	color: #2799FB;
+	border-style: solid;
+	background: #2699FB;
+	color: #fff;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+	span {
+		margin-left: 0px;
+		padding-right: 0px;
+	}
+	.App {
+		margin-top: 20px;
+		margin-right: 0px;
+		width: 30px;
+	}
+	.column1 {
+		display: block;
+		margin-left: 300px;
+	}
+	.column1 span {
+		margin-left: 50px;
+	}
+	.column2 {
+		margin-left: -400px;
+		margin-top: 450px;
+		margin-right: 0;
+	}
+	.botao-enviar {
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		width: 200px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-right: 30px;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 25px;
+	}
+	#name {
+		margin-left: 25px;
+		width: 325px;
+	}
+	#email {
+		margin-left: 25px;
+		width: 325px;
+	}
+	#boxtext {
+		margin-left: 25px;
+		width: 325px;
+	}
+	#checkbox {
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		margin-left: 70px;
+	}
+	#checkbox span {
+		padding-right: 1px;
+		padding-left: 0px;
+		margin-left: 20px;
+		margin-right: 0px;
+	}
+	.dropdown span {
+		margin-left: 20px;
+		margin-bottom: 25px;
+	}
+	.dropdown {
+		margin-left: 75px;
+	}
+	#tag {
+		margin-left: 75px;
+	}
+}
